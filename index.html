@@ -12,6 +12,7 @@
   
 .container-1{
   margin: 0;
+  font-size: 100px;
 }
 h2{
   padding-top: 45px;
@@ -40,12 +41,23 @@ h4{
 .rose{
   color: rgb(8, 103, 182);
 }
+.row{
+  display: flex;
+
+}
+.row img{
+  width: 250px;
+  height: 200px;
+  padding: 20px;
+}
 .card{
  padding-left: 15px;
  padding-right: 15px;
  padding-top: 15px;
  padding-bottom: 15px;
+ margin: 20px;
 }
+
 </style>
 </head>
 <body>
@@ -123,18 +135,19 @@ h4{
 <div id="flowerssec">
   <h2>Online Flower Delivery</h2>
 <h4>Discover the Everlasting Elegance of Flowers</h4>
-<div class="container">
-  <div class="row row-cols-4">
-    <div class="col"><div class="card" style="width: 18rem;">
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/DSC_1243_0.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">10 Red Roses Bouquet</h5>
-    <p class="card-text">₹ 545 <br> <span class="rose">(1622 Reviews)</span> <br> Earliest Delivery : <span class="rose">In 3 hours</span></p>
+    <p class="card-text"> <br>₹ 545 <br> <span class="rose">(1622 Reviews)</span> <br> Earliest Delivery : <span class="rose">In 3 hours</span></p>
     <a href="#" class="btn btn-primary">ADD TO CART</a>
   </div>
 </div>
 </div>
-    <div class="col">
+    <div class="col-3">
 <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/DSC_7934.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
@@ -144,7 +157,7 @@ h4{
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-3">
       <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/1-B_91.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
@@ -154,7 +167,7 @@ h4{
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-3">
        <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/DSC_2918_0.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
@@ -165,9 +178,11 @@ h4{
 </div>
     </div>
   </div>
-<div class="container">
-  <div class="row row-cols-4">
-    <div class="col"><div class="card" style="width: 18rem;">
+</div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/DSC_1702_1.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Eternity White Roses Bouque</h5>
@@ -176,7 +191,7 @@ h4{
   </div>
 </div>
 </div>
-    <div class="col">
+    <div class="col-3">
 <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/a-forever-promise-in-white-roses-9761060fl-A.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
@@ -186,7 +201,7 @@ h4{
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-3">
       <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/DSC_1248.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
@@ -196,7 +211,7 @@ h4{
   </div>
 </div>
     </div>
-    <div class="col">
+    <div class="col-3">
        <div class="card" style="width: 18rem;">
   <img src="https://imgcdn.floweraura.com/gerberas-in-rustic-love-9760880fl-A.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
   <div class="card-body">
@@ -241,21 +256,22 @@ h4{
 </div>
 <h2>Bestseller Cakes Online</h2>
 <h4>Delectably Delicious in Every Layers!</h4>
-<div class="container">
-  <div class="row row-cols-4">
-    <div class="col"><div class="card" style="width: 18rem;">
+<div class="container-fluid">
+  <div class="row ">
+    <div class="col-3">
+      <div class="card" style="width: 18rem;">
       <img src="https://imgcdn.floweraura.com/DSC_5885.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Artistic Chocolate Pleasure Cake</h5>
-        <p class="card-text">₹ 545 <br> <span class="rose">(1094 Reviews)</span> </span> <br>  Earliest Delivery : <span class="rose">In 3 hours</span></p>
+        <p class="card-text">₹ 545 <br> <span class="rose">(1094 Reviews)</span>  <br>  Earliest Delivery : <span class="rose">In 3 hours</span></p>
         <a href="#" class="btn btn-primary">ADD TO CART</a>
       </div>
     </div></div>
-    <div class="col"><div class="card" style="width: 18rem;">
+    <div class="col-3"><div class="card" style="width: 18rem;">
       <img src="https://imgcdn.floweraura.com/DSC_1964_0.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Divine Butterscotch Cake</h5>
-        <p class="card-text">₹ 549 <br> <span class="rose">(698 Reviews)</span> </span> <br>  Earliest Delivery : <span class="rose">In 3 hours</span>p>
+        <p class="card-text">₹ 549 <br> <span class="rose">(698 Reviews)</span>  <br>  Earliest Delivery : <span class="rose">In 3 hours</span>p>
         <a href="#" class="btn btn-primary">ADD TO CART</a>
       </div>
     </div></div>
@@ -263,11 +279,11 @@ h4{
       <img src="https://imgcdn.floweraura.com/luscious-rasmalai-pista-cream-cake-9815470ca-A.JPG?tr=w-304,q-70" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Rasmalai Pista Cream Cake</h5>
-        <p class="card-text">₹ 895 <br> <span class="rose">(264 Reviews)</span> </span> <br>  Earliest Delivery : <span class="rose">In 3 hours</span></p>
+        <p class="card-text">₹ 895 <br> <span class="rose">(264 Reviews)</span> <br>  Earliest Delivery : <span class="rose">In 3 hours</span></p>
         <a href="#" class="btn btn-primary">ADD TO CART</a>
       </div>
     </div></div>
-    <div class="col"><div class="card" style="width: 18rem;">
+    <div class="col-3"><div class="card" style="width: 18rem;">
       <img src="https://imgcdn.floweraura.com/blue-orchids-bouquet-n-choco-cake-9813430co-C_1.jpg?tr=w-304,q-70" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Chocolate Truffle Cake</h5>
